@@ -1,0 +1,77 @@
+.attribution { font-size: 16px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body 
+        {
+            font-family: 'Outfit', sans-serif;
+            background-color: hsl(30, 54%, 90%);
+            width: 100%;
+            max-width: 375px;
+            margin: 0 auto; 
+        }
+
+        @media (min-width: 376px) 
+        {
+            body 
+            {
+                max-width: 1440px;
+            }
+        }
+#main
+    {
+        background-color: hsl(0, 0%, 100%);
+        width: 650px; 
+        margin: 100px auto; 
+        padding: 40px;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }        
+#Preparation
+{
+    background-color: hsl(330, 100%, 98%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+#TituloPrepa
+{
+    padding-left: 25px;
+    color:hsl(332, 51%, 32%)
+}
+
+#huevo
+{
+    border-radius:0px;
+}
+.Titulos
+{
+    color:hsl(332, 51%, 32%)
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, td
+{
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+    padding: 12px;
+    text-align: left;
+}
+
+table .Columna
+{
+    color: hsl(14, 45%, 36%)
+}
+
+table tr#last th, table tr#last td
+{
+    border-bottom: none;
+}
+
+table tr#last th, table tr#last td
+{
+    border-bottom: none;
+}
